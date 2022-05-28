@@ -84,10 +84,10 @@ p,h1,h2,h3{
 .navbar-right-btn:hover{
     text-decoration: none;
 }
-.dropdown-toggle::after {
+nav .dropdown-toggle::after {
     margin-left: 10px;
 }
-.dropdown-toggle::before {
+nav .dropdown-toggle::before {
     content: "Linguist";
     font-size: 12px;
     color: #808191;
@@ -180,7 +180,6 @@ p,h1,h2,h3{
 /* dashboard-section */
 .dash-section{
     font-size: 14px;
-    text-align: center;
     margin-top: 30px;
     color: #2E2C34;
     font-weight: 600;
@@ -223,8 +222,8 @@ p,h1,h2,h3{
 .dash-des::before{
     content: "";
     position: absolute;
-    left: -10px;
-    top: 6px;
+    left: -15px;
+    top: 5px;
     background-color: #FC3400;
     width: 9px;
     height: 9px;
@@ -247,6 +246,82 @@ p,h1,h2,h3{
     font-size: 15px;
     margin-top: 3px;
 }
+
+.dash-topbar{
+    margin-bottom: 25px;
+}
+.dash-topbar-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.dash-topbar-title span{
+    color: #D6D6D6;
+}
+.dash-topbar-search{
+    position: relative;
+    width: 234px;
+    height: 42px;
+}
+.dash-topbar-search input{
+    position: absolute;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    height: 100%;
+    padding: 0 10px 0 35px;
+}
+.dash-topbar-search input::placeholder{
+    color: #84818A;
+    font-weight: 500;
+}
+.dash-topbar-search i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #84818A;
+}
+.dash-topbar-category,.dash-topbar-filter {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+.dash-topbar-category span{
+    color: #ABABAB;
+    font-weight: 500;
+}
+.dash-name-bar{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #84818A;
+    padding: 10px 0px !important;
+    border-radius: 8px !important;
+}
+.sort-icon::after{
+    content: "\f0dc";
+    font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -278,6 +353,9 @@ p,h1,h2,h3{
     }
     .navbar-collapse{
         padding-top: 0 !important;
+    }
+    .dash-topbar-category,.dash-topbar-filter{
+        margin-top: 15px;
     }
 }
 @media only screen and (max-width: 450px) {
