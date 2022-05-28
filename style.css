@@ -194,6 +194,7 @@ p,h1,h2,h3{
 }
 .dash-section .row{
     padding: 24px 0px;
+    border-radius: 15px;
 }
 .dash-des{
     position: relative;
