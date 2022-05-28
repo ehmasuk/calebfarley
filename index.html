@@ -90,7 +90,34 @@
 <section class="dash-section">
     <div class="container">
 
-
+        <div class="dash-topbar text-left">
+                <div class="row p-0 align-items-center">
+                    <div class="col-6 p-0">
+                        <p class="dash-topbar-title">Active Journey <span>(53)</span> </p>
+                    </div>
+                    <div class="col-6 p-0 row justify-content-between align-items-center">
+                        <div class="dash-topbar-search">
+                            <input type="search" placeholder="Search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="dash-topbar-category">
+                            <div class="dropdown show">
+                                <a class="dropdown-toggle navbar-right-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span>Category : </span>Discovery
+                                </a>
+                                
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">option1</a>
+                                    <a class="dropdown-item" href="#">option2</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dash-topbar-filter">
+                            <p>Filters<i class="fas fa-filter ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
 
 
 
@@ -103,50 +130,48 @@
 
 
         
-        <div class="row gray-bg align-items-center">
+        <div class="row gray-bg align-items-center dash-name-bar">
+            <div class="col-1">
+                <p>no.</p>
+            </div>
+            <div class="col-4">
+                <p class="">journey name</p>
+            </div>
+            <div class="col-2">
+                <p class="text-center sort-icon">status</p>
+            </div>
+            <div class="col-1">
+                <p class="text-center sort-icon">category</p>
+            </div>
+            <div class="col-2">
+                <p class="text-center sort-icon">due date</p>
+            </div>
+            <div class="col-2">
+                <p class="text-center">Action</p>
+            </div>
+        </div>
+
+
+
+
+        
+        <div class="row align-items-center">
             <div class="col-1">
                 <p>CJ-4291</p>
             </div>
             <div class="col-4">
                 <p class="dash-des">Search for an item with the intent to purchase</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-status dash-in-progress">In Progress</p>
             </div>
-            <div class="col-1">
+            <div class="col-1 text-center">
                 <p>Discovery</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-date">11 Dec 2022</p>
             </div>
-            <div class="col-2">
-                <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
-            </div>
-        </div>
-
-
-
-
-
-
-        
-        <div class="row align-items-center">
-            <div class="col-1">
-                <p>CJ-4291</p>
-            </div>
-            <div class="col-4">
-                <p class="dash-des">Search for an item with the intent to purchase</p>
-            </div>
-            <div class="col-2">
-                <p class="dash-status dash-complete">Complete</p>
-            </div>
-            <div class="col-1">
-                <p>Discovery</p>
-            </div>
-            <div class="col-2">
-                <p class="dash-date">11 Dec 2022</p>
-            </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
             </div>
         </div>
@@ -164,21 +189,19 @@
             <div class="col-4">
                 <p class="dash-des">Search for an item with the intent to purchase</p>
             </div>
-            <div class="col-2">
-                <p class="dash-status dash-uncomplete">Uncompleted</p>
+            <div class="col-2 text-center">
+                <p class="dash-status dash-complete">Complete</p>
             </div>
-            <div class="col-1">
+            <div class="col-1 text-center">
                 <p>Discovery</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-date">11 Dec 2022</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
             </div>
         </div>
-
-
 
 
 
@@ -193,43 +216,45 @@
             <div class="col-4">
                 <p class="dash-des">Search for an item with the intent to purchase</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
+                <p class="dash-status dash-uncomplete">Uncompleted</p>
+            </div>
+            <div class="col-1 text-center">
+                <p>Discovery</p>
+            </div>
+            <div class="col-2 text-center">
+                <p class="dash-date">11 Dec 2022</p>
+            </div>
+            <div class="col-2 text-center">
+                <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        
+        <div class="row gray-bg align-items-center">
+            <div class="col-1">
+                <p>CJ-4291</p>
+            </div>
+            <div class="col-4">
+                <p class="dash-des">Search for an item with the intent to purchase</p>
+            </div>
+            <div class="col-2 text-center">
                 <p class="dash-status dash-in-progress">In Progress</p>
             </div>
-            <div class="col-1">
+            <div class="col-1 text-center">
                 <p>Discovery</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-date">11 Dec 2022</p>
             </div>
-            <div class="col-2">
-                <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
-            </div>
-        </div>
-
-
-
-
-
-
-        
-        <div class="row gray-bg align-items-center">
-            <div class="col-1">
-                <p>CJ-4291</p>
-            </div>
-            <div class="col-4">
-                <p class="dash-des">Search for an item with the intent to purchase</p>
-            </div>
-            <div class="col-2">
-                <p class="dash-status dash-complete">Complete</p>
-            </div>
-            <div class="col-1">
-                <p>Discovery</p>
-            </div>
-            <div class="col-2">
-                <p class="dash-date">11 Dec 2022</p>
-            </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
             </div>
         </div>
@@ -247,19 +272,22 @@
             <div class="col-4">
                 <p class="dash-des">Search for an item with the intent to purchase</p>
             </div>
-            <div class="col-2">
-                <p class="dash-status dash-uncomplete">Uncompleted</p>
+            <div class="col-2 text-center">
+                <p class="dash-status dash-complete">Complete</p>
             </div>
-            <div class="col-1">
+            <div class="col-1 text-center">
                 <p>Discovery</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-date">11 Dec 2022</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
             </div>
         </div>
+
+
+
 
 
 
@@ -271,19 +299,54 @@
             <div class="col-4">
                 <p class="dash-des">Search for an item with the intent to purchase</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-status dash-uncomplete">Uncompleted</p>
             </div>
-            <div class="col-1">
+            <div class="col-1 text-center">
                 <p>Discovery</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-date">11 Dec 2022</p>
             </div>
-            <div class="col-2">
+            <div class="col-2 text-center">
                 <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
             </div>
         </div>
+
+
+
+        
+        <div class="row align-items-center">
+            <div class="col-1">
+                <p>CJ-4291</p>
+            </div>
+            <div class="col-4">
+                <p class="dash-des">Search for an item with the intent to purchase</p>
+            </div>
+            <div class="col-2 text-center">
+                <p class="dash-status dash-uncomplete">Uncompleted</p>
+            </div>
+            <div class="col-1 text-center">
+                <p>Discovery</p>
+            </div>
+            <div class="col-2 text-center">
+                <p class="dash-date">11 Dec 2022</p>
+            </div>
+            <div class="col-2 text-center">
+                <p class="dash-begin"><i class="fas fa-play-circle"></i>Begin</p>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="row">
+            <div class="col-5">
+                <p>Showing 11 from 146 Entires</p>
+            </div>
+            <div class="col-7">
+                <p>Showing 11 from 146 Entires</p>
+            </div>
+        </div> -->
 
 
 
@@ -321,6 +384,8 @@
     </div>
 </section>
 
+
+<section class="p-5"></section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
