@@ -177,10 +177,75 @@ p,h1,h2,h3{
     color: #4FBF67;
     background-color: #DCF2E1;
 }
-
-
-
-
+/* dashboard-section */
+.dash-section{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    color: #2E2C34;
+    font-weight: 600;
+}
+.gray-bg{
+    background: #F9F9FA;    
+}
+.dash-section .container{
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+.dash-section .row{
+    padding: 24px 0px;
+}
+.dash-des{
+    position: relative;
+}
+.dash-date{
+    color: #84818A;
+}
+.dash-status{
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.dash-in-progress{
+    background-color: #E6F6FF;
+    color: #00A5FF;
+}
+.dash-complete{
+    background-color: #E4F5F2;
+    color: #20C9AC;
+}
+.dash-uncomplete{
+    background-color: #FFF6ED;
+    color: #FFA043;
+}
+.dash-des::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 6px;
+    background-color: #FC3400;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}
+.gray-bg .dash-des::before{
+    background-color: #1DBF73 !important;
+}
+.dash-begin{
+    border: 0.6px solid #F2F2F2;
+    padding: 5px 8px;
+    border-radius: 32px;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+}
+.dash-begin i{
+    margin-right: 7px;
+    color: #4FBF67;
+    font-size: 15px;
+    margin-top: 3px;
+}
 
 
 
